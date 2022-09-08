@@ -1,7 +1,7 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Disney Plus Sub",
+  "name": "Disney Hotstar Sub",
   "description": "Fixing Disney Hotstar Subtitle",
   "version": "1.0",
   "manifest_version": 3,
