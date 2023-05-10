@@ -1,8 +1,8 @@
 {
-  "name": "Disney+ Hotstar Subtitle",
+  "name": "Disney Plus",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Fixing Disney+ Hotstar Subtitle",
+  "description": "Fixing Disney Plus subtitles.",
   "content_scripts": [
     {
       "matches": ["*://*.hotstar.com/*"],
