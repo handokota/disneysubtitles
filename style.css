@@ -1,9 +1,16 @@
 @font-face {
-    font-family: 'Netflix Sans';
-    src: url('chrome-extension://__MSG_@@extension_id__/fonts/NetflixSansBold.ttf');
-    font-weight: bold;
-    font-style: normal;
-  }
+  font-family: 'Netflix Sans';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/Netflix_Sans__Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/fonts/Netflix_Sans__Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
 
 .subtitle-container .cues-container .shaka-text-container > span {
     color: white !important;
@@ -27,6 +34,7 @@
                  #000 0px 0px 1px !important;
     font-family: 'Netflix Sans' !important;
     -webkit-font-smoothing: antialiased !important;
+    white-space: pre !important;
 }
 
 .shaka-text-container > span {
@@ -51,6 +59,7 @@
                #000 0px 0px 1px !important;
   font-family: 'Netflix Sans' !important;
   -webkit-font-smoothing: antialiased !important;
+  white-space: pre !important;
 }
 
 .shaka-text-container > span > i {
@@ -75,4 +84,5 @@
                #000 0px 0px 1px !important;
   font-family: 'Netflix Sans' !important;
   -webkit-font-smoothing: antialiased !important;
+  white-space: pre !important;
 }
